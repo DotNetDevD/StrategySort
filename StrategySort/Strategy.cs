@@ -8,6 +8,7 @@ namespace StrategySort
 {
     abstract class Strategy
     {
-        public abstract void Sort(ref int[] array);
+        public abstract void Name();
+        public abstract void Sort(int[] array);
     }
 }

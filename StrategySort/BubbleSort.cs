@@ -9,10 +9,12 @@ namespace StrategySort
     // Пузырьковая сортировка.
     class BubbleSort : Strategy
     {
-        public override void Sort(ref int[] array)
+        public override void Name()
         {
             Console.WriteLine("BubbleSort");
-
+        }
+        public override void Sort(int[] array)
+        {
             for (int i = 0; i < array.Length; i++)
             {
                 for (int j = array.Length - 1; j > i; j--)

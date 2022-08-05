@@ -18,14 +18,13 @@ namespace StrategySort
 
         public void Sort()
         {
-            strategy.Sort(ref array);
+            strategy.Sort(array);
         }
 
         public void PrintArray()
         {
             for (int i = 0; i < array.Length; i++)
                 Console.Write(array[i] + " ");
-
             Console.WriteLine();
         }
     }

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var sort = new BubbleSort();
+            var sort = new QuickSort();
             var context = new Context(sort);
             context.Sort();
             sort.Name();

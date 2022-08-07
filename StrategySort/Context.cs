@@ -9,7 +9,7 @@ namespace StrategySort
     internal class Context
     {
         Strategy strategy;
-        int[] array = { 3, 5, 1, 2, 4 };
+        int[] array = { 3, 5, 7, 6, 4, 2, 8, 1, 9};
 
         public Context(Strategy strategy)
         {
